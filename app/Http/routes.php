@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::resource('users', 'UserController');
 Route::resource('books', 'BookController');
+Route::resource('users.books', 'TaskController');
